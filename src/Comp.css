@@ -1,0 +1,57 @@
+.main{
+    text-align: center;
+}
+input{
+    width: 400px;
+    height: 45px;
+    border: none;
+    
+}
+span{
+    color: #14bc9a;
+}
+p{
+    margin-top: 1%;
+    color: gray;
+}
+h1{
+    margin-bottom: 0%;
+}
+.btn{
+    background-color: white;
+    border: 1px solid gray;
+    width: 180px;
+   height: 30px;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+
+.in{
+    border: none;
+}
+.sear{
+    border: 1px solid gray;
+    width: 590px;
+}
+.input{
+    display: flex;
+}
+.btt{
+    border-radius: 5px;
+    margin-left: 80px;
+    width: 80px;
+    height: 28px;
+    border: 1px solid ghostwhite;
+    background-color:  #14bc9a;
+    color: ghostwhite;
+}
+.rht{
+    margin-left: 280px;
+}
+.skill{
+    border: 1px solid gray;
+}
+#btn{
+    background-color: #14bc9a;
+    margin-right: 2px;
+}
