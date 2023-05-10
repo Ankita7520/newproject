@@ -47,10 +47,31 @@ class App extends Component{
                 
                 <button className="btt"><SlMagnifier></SlMagnifier>Search</button>
                 </div>
-                
+               
+                </div>
             </div>
+            <div className="second">
+                <div className="bd1">
+                    <h3>Filter Search</h3>
+                    <a href="">Clear All</a>
+                </div>
+                <div>
+                    <p className="dca">Location</p>
+                </div>
+                <div>
+                    <input type="text" placeholder="city" className="inp"/><br></br>
+                    <div className="abc">
+                    <input type="checkbox" className="cba" id="city1"/><label htmlFor="city1">Chennai,TamilNadu</label><br></br>
+                    <input type="checkbox" className="cba" id="city2"/><label htmlFor="city2">Mumbai,Mumbai</label><br></br>
+                    <input type="checkbox" className="cba" id="city3"/><label htmlFor="city3">Banglore,Karnataka</label><br></br>
+                    <input type="checkbox" className="cba" id="city4"/><label htmlFor="city4">Kolkata,West Bengal</label><br></br>
+                    <input type="checkbox" className="cba" id="city5"/><label htmlFor="city5">Bhubaneswar,Odisha</label><br></br>
+                    </div>
+
+                </div>
             </div>
         </div>
+        
     )
 }
 }

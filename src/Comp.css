@@ -5,6 +5,7 @@ input{
     width: 400px;
     height: 45px;
     border: none;
+    outline: none;
     
 }
 span{
@@ -28,6 +29,7 @@ h1{
 
 .in{
     border: none;
+
 }
 .sear{
     border: 1px solid gray;
@@ -54,4 +56,53 @@ h1{
 #btn{
     background-color: #14bc9a;
     margin-right: 3px;
+}
+.second{
+    border: 1px solid gray;
+    width: 300px;
+    height: 520px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 230px;
+    background-color: rgb(245, 241, 241);
+    
+}
+.bd1{
+    display: flex;
+    border: 1px solid gray;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: rgb(211, 208, 208);
+}
+a{
+    text-decoration: none;
+    margin-top: 21px;
+    margin-left: 120px;
+    color: #14bc9a;
+}
+.inp{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    margin-left: 15px;
+}
+.dca{
+    margin-left: 15px;
+}
+h3{
+    margin-left: 15px;
+    font-size: medium;
+}
+
+.cba{
+    margin-left: -150px;
+    margin-top: 10px;
+
+}
+input[type=checkbox]{
+    zoom: 0.5;
+}
+label{
+    margin-left: -75px;
 }
