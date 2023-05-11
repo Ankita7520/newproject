@@ -3,15 +3,14 @@
 }
 input{
     width: 400px;
-    height: 45px;
+    height: 30px;
     border: none;
     outline: none;
-    
 }
 span{
-    color: #14bc9a;
+    color:#14bc9a;
 }
-p{
+h5{
     margin-top: 1%;
     color: gray;
 }
@@ -29,7 +28,10 @@ h1{
 
 .in{
     border: none;
-
+    
+}
+input:hover{
+    border: none;
 }
 .sear{
     border: 1px solid gray;
@@ -54,13 +56,12 @@ h1{
     border: 1px solid gray;
 }
 #btn{
-    background-color: #14bc9a;
-    margin-right: 3px;
+    background-color:  #14bc9a;
 }
 .second{
     border: 1px solid gray;
     width: 300px;
-    height: 520px;
+    height: fit-content;
     border-radius: 10px;
     margin-top: 50px;
     margin-left: 230px;
@@ -72,22 +73,20 @@ h1{
     border: 1px solid gray;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
-    background-color: rgb(211, 208, 208);
+    background-color: rgb(230, 229, 229);
 }
 a{
     text-decoration: none;
     margin-top: 21px;
     margin-left: 120px;
-    color: #14bc9a;
 }
 .inp{
     border: 1px solid gray;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 250px;
-    height: 35px;
     margin-left: 15px;
 }
-.dca{
+p{
     margin-left: 15px;
 }
 h3{
@@ -105,4 +104,13 @@ input[type=checkbox]{
 }
 label{
     margin-left: -75px;
+}
+.dca{
+    color:  #14bc9a;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: small;
+}
+.slidecontainer{
+    width:10%;
 }
