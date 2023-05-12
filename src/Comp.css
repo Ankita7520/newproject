@@ -113,9 +113,28 @@ label{
 }
 .slidecontainer{
     width:10%;
+    color: #14bc9a;
+   
 }
-.ip{
+.input-range__track--active{
+   background-color: #14BC9A;
+}
+
+
+    .ip{
     width: 100px;
     border: 1px solid gray;
     border-radius: 10px;
+}
+#input{
+    margin-bottom: 0%;
+    margin-top: -15px;
+}
+#dat{
+    margin-top: -10px;
+    font-size: small;
+    color: #14bc9a;
+}
+#years{
+    margin-left: 160px;
 }

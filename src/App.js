@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import "./Comp.css";
 import { SlLocationPin,SlMagnifier } from "react-icons/sl";
 import { Switch } from "antd"
-
+import InputRange from "react-input-range";
+import 'react-input-range/lib/css/index.css'
+import Range from "./Home";
+import Rangeslider from "./Rangeslider/Index";
 
 class App extends Component{
     constructor(){
@@ -16,6 +19,7 @@ class App extends Component{
 
          }
     }
+    
     
      colorhandler=()=>{
         
@@ -34,6 +38,7 @@ class App extends Component{
             this.setState({name:true})
          }
     }
+
 
     render(){
     return(
@@ -140,8 +145,9 @@ class App extends Component{
                 </div>
                 <div>
                     <p>Experience</p>
-                    <div class="slidecontainer"></div>
-                    <input type="range" className="inp" id="exp" style={{Color:"green"}}/>
+                    <Rangeslider/>
+                   
+
                 </div>
                 <div>
                 <p>Travel Required <Switch onClick={this.togglehandler}/>{this.state.name?<h1></h1>:<input type="number" placeholder=" Travel Percentage" className="ip" />}</p>
