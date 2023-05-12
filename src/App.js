@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Comp.css";
 import { SlLocationPin,SlMagnifier } from "react-icons/sl";
+import { Switch } from "antd"
 
 
 class App extends Component{
@@ -10,7 +11,9 @@ class App extends Component{
         colr:"#14bc9a"
      }
          this.state={
-            colour:"white"
+            colour:"white",
+            name:true
+
          }
     }
     
@@ -22,6 +25,14 @@ class App extends Component{
     handleclick=()=>{
         this.setState({colour:"#14bc9a"})
         this.setState({colr:"white"})
+    }
+    togglehandler=()=>{
+         if(this.state.name){
+            this.setState({name:false})
+         }
+         else{
+            this.setState({name:true})
+         }
     }
 
     render(){
@@ -130,12 +141,11 @@ class App extends Component{
                 <div>
                     <p>Experience</p>
                     <div class="slidecontainer"></div>
-                    <input type="range" min="1" max="10" value="50"></input>
-
+                    <input type="range" className="inp" id="exp" style={{Color:"green"}}/>
                 </div>
                 <div>
-                <p>Travel Required</p>
-                <p>Equal Opportunity<br/>Employer</p>
+                <p>Travel Required <Switch onClick={this.togglehandler}/>{this.state.name?<h1></h1>:<input type="number" placeholder=" Travel Percentage" className="ip" />}</p>
+                <p>Equal Opportunity<br/>Employer <Switch/></p>
                     </div>
                  <div>
                     <p>Jobs posted Between</p>
@@ -152,3 +162,5 @@ class App extends Component{
 }
             
 export default App
+
+

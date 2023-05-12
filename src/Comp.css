@@ -114,3 +114,8 @@ label{
 .slidecontainer{
     width:10%;
 }
+.ip{
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
