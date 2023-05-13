@@ -155,7 +155,7 @@ class App extends Component{
                 <p>Equal Opportunity<br/>Employer <Switch/></p>
                     </div>
                  <div>
-                    <p>Jobs posted Between</p>
+                    <p>Jobs posted Betweens</p>
                     <div>
                         <input type="date" name="" id="inp" className="inp"/>
                         <input type="date" name="" id="" className="inp"/>
