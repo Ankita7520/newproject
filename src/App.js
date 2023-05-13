@@ -152,7 +152,7 @@ class App extends Component{
                 </div>
                 <div>
                 <p>Travel Required <Switch onClick={this.togglehandler}/>{this.state.name?<h1></h1>:<input type="number" placeholder=" Travel Percentage" className="ip" />}</p>
-                <p>Equal Opportunity<br/>Employer <Switch/></p>
+                <p>Equal Opportunity<br/>Employerss <Switch/></p>
                     </div>
                  <div>
                     <p>Jobs posted Betweens</p>
