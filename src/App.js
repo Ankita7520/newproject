@@ -6,6 +6,8 @@ import InputRange from "react-input-range";
 import 'react-input-range/lib/css/index.css'
 import Range from "./Home";
 import Rangeslider from "./Rangeslider/Index";
+import Images from "../src/images/passphoto.jpg";
+import  Calandar from "./Calandar/Index";
 
 class App extends Component{
     constructor(){
@@ -46,6 +48,8 @@ class App extends Component{
             <div className="main">
             <h1>Get the <span>Right Job</span> You Deserve</h1>
             <p>Your next carrer move starts here</p>
+            
+            
             </div>
             <div className="rht">
             <div className="butn">
@@ -157,13 +161,21 @@ class App extends Component{
                  <div>
                     <p>Jobs posted Betweens</p>
                     <div>
-                        <input type="date" name="" id="inp" className="inp"/>
-                        <input type="date" name="" id="" className="inp"/>
+                        {/* <input type="date" name="" id="inp" className="inp"/>
+                        <input type="date" name="" id="" className="inp"/> */}
+                        <Calandar />
                     </div>
                  </div>
                  
             </div>
+            <div>
+            
+                <img src={Images} alt="passphoto.jpg" className="image" />
+          
             </div>
+            </div>
+            
+            
     )
     }
 }
