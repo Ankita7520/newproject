@@ -8,6 +8,8 @@ import Range from "./Home";
 import Rangeslider from "./Rangeslider/Index";
 import Images from "../src/images/passphoto.jpg";
 import  Calandar from "./Calandar/Index";
+import About from "./About"
+
 
 class App extends Component{
     constructor(){
@@ -21,6 +23,7 @@ class App extends Component{
 
          }
     }
+
     
     
      colorhandler=()=>{
@@ -164,13 +167,14 @@ class App extends Component{
                         {/* <input type="date" name="" id="inp" className="inp"/>
                         <input type="date" name="" id="" className="inp"/> */}
                         <Calandar />
+
                     </div>
                  </div>
                  
             </div>
             <div>
             
-                <img src={Images} alt="passphoto.jpg" className="image" />
+                <img src={Images} alt="passphoto.jpg" className="image"/>
           
             </div>
             </div>
@@ -179,7 +183,7 @@ class App extends Component{
     )
     }
 }
-            
+         
 export default App
 
 
