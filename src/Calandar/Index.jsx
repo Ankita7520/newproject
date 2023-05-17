@@ -5,7 +5,7 @@ import "./Stylee.css"
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
  
 
-const Calendar = () => {
+const Calandar = () => {
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
   
@@ -51,4 +51,4 @@ const Calendar = () => {
     );
   };
   
-  export default Calendar;
+  export default Calandar;

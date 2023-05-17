@@ -145,3 +145,60 @@ label{
      left:1300px;
      bottom:2000px;
 }
+.box{
+    border: 1px solid gray;
+    width: 280px;
+    height: max-content;
+    margin: 50px;
+    margin-top: -50px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.box1{
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+.box2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.box5{
+    color: blue;
+}
+.box3{
+    color: blue;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.box4{
+    color: black;
+    margin-bottom: 0%;
+}
+.box6{
+    width: 37px;
+    height: 37px;
+    margin-bottom: 0%;
+    margin-top: 5px;
+}
+.rht{
+    margin-bottom: 50px;
+}
+.boxx{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap:wrap;
+    
+
+}
+.box9{
+    border: 1px solid gray;
+    width: 280px;
+    height: max-content;
+    margin: 50px;
+    margin-top: -50px;
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-left: 910px;
+    margin-bottom:600px;
+    }
