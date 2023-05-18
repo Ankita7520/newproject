@@ -7,18 +7,35 @@ import 'react-input-range/lib/css/index.css'
 import Range from "./Home";
 import Rangeslider from "./Rangeslider/Index";
 import  Calandar from "./Calandar/Index";
+import WebFont from 'webfontloader';
 
 
 class Contact extends Component {
+
+    constructor(){
+        super()
+        this.state={
+            name:true
+
+         }
+    }
+    togglehandler=()=>{
+        if(this.state.name){
+           this.setState({name:false})
+        }
+        else{
+           this.setState({name:true})
+        }
+   } 
     
     render () {
-    return( <div className="second">
+    return( <div className="second" style={{fontFamily:"system-ui,sans-serif"}}>
     <div className="bd1">
         <h3>Filter Search</h3>
-        <a href="">Clear All</a>
+        <a href="" className="all">Clear All</a>
     </div>            
     <div>
-        <p className="dca">Location</p>
+        <p className="dca">Preferred Job Location</p>
     </div>
     <div>
         <input type="text" placeholder="city" className="inp"/><br></br>
@@ -32,7 +49,7 @@ class Contact extends Component {
         <input type="checkbox" className="cba" id="city7"/><label htmlFor="city7">Pune,Maharastra</label><br></br>
         <input type="checkbox" className="cba" id="city8"/><label htmlFor="city8">Indore,Madhaya Pradhesh</label><br></br>
         <input type="checkbox" className="cba" id="city9"/><label htmlFor="city9">Ahamadabad,Gujarat</label><br></br>
-        <h6 className="dca">+7154More</h6>
+        <h6 className="dc">+7154More</h6>
         </div>
 
     </div>
@@ -88,6 +105,7 @@ class Contact extends Component {
         <input type="checkbox" className="cba" id="id8"/><label htmlFor="id8">Automotive</label><br></br>
         <input type="checkbox" className="cba" id="id9"/><label htmlFor="id9">Telecom</label><br></br>
         <input type="checkbox" className="cba" id="id10"/><label htmlFor="id10">Chemical</label><br></br>
+        <h6 className="dc">+13More</h6>
     </div>
     <div>
         <p>Experience</p>

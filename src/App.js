@@ -17,6 +17,7 @@ import img5 from "./images/TW.jpg"
 import img6 from "./images/RI.png"
 import img7 from "./images/RI.png"
 import Contact from "./Contact"
+import AppsIcon from '@mui/icons-material/Apps';
 
 
 
@@ -96,6 +97,19 @@ class App extends Component{
             {
               this.state.second?<span></span>:<Contact/>
             }
+            <div>
+           
+                <h1 className="result">Search Result</h1>
+                </div>
+            
+            <div className="sort">
+                <p>Sort by:</p>
+                <h4 className="new">Newest first</h4>
+               <AppsIcon className="App"></AppsIcon>
+            </div>
+            
+               
+               
            
                  
       
@@ -103,6 +117,7 @@ class App extends Component{
    
              <div className="Box4">
             <div className="boxx" style={{display:"flex"}}>
+                
                 <div className="box">
                 <img src={img1} alt="" className="box6"/>
                     <h3 className="box1">Human Resources Manager</h3>
@@ -148,7 +163,7 @@ class App extends Component{
                     </div>
                     <h5 className="box4">Tekwissen software pvt ltd</h5>
                 </div>
-                <div className="box9">
+                <div className="box">
                 <img src={img6} alt="" className="box6"/>
                     <h3 className="box1">CASA Officert</h3>
                     <h6 className="box2">Full Time 1-4Yrs</h6>
@@ -157,12 +172,30 @@ class App extends Component{
                     </div>
                     <h5 className="box4">Response Informatics</h5>
                 </div>
-                <div className="box10">
+                <div className="box">
                 <img src={img7} alt="" className="box6"/>
                     <h3 className="box1">CEP Personal Banker</h3>
                     <h6 className="box2">Full Time 2-5Yrs</h6>
                     <div style={{display:"flex"}}>
                     <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Delhi, Delhi,Hyderabad, Telangana,Mumbai..</h6>
+                    </div>
+                    <h5 className="box4">Response Informatics</h5>
+                </div>
+                <div className="box">
+                <img src={img7} alt="" className="box6"/>
+                    <h3 className="box1">CEP Personal Banker</h3>
+                    <h6 className="box2">Full Time 2-5Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Delhi, Delhi,Hyderabad, Telangana,Mumbai..</h6>
+                    </div>
+                    <h5 className="box4">Response Informatics</h5>
+                </div>
+                <div className="box">
+                <img src={img6} alt="" className="box6"/>
+                    <h3 className="box1">CASA Officert</h3>
+                    <h6 className="box2">Full Time 1-4Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">India,India</h6>
                     </div>
                     <h5 className="box4">Response Informatics</h5>
                 </div>
