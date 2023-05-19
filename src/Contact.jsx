@@ -7,7 +7,14 @@ import 'react-input-range/lib/css/index.css'
 import Range from "./Home";
 import Rangeslider from "./Rangeslider/Index";
 import  Calandar from "./Calandar/Index";
-import WebFont from 'webfontloader';
+import img1 from "./images/geninvo.jpg"
+import img2 from "./images/acuvate.jpg"
+import img3 from "./images/RI.png"
+import img4 from "./images/Np.png"
+import img5 from "./images/TW.jpg"
+import img6 from "./images/RI.png"
+import img7 from "./images/RI.png"
+import AppsIcon from '@mui/icons-material/Apps';
 
 
 class Contact extends Component {
@@ -31,7 +38,7 @@ class Contact extends Component {
     render () {
     return( <div className="second" style={{fontFamily:"system-ui,sans-serif"}}>
     <div className="bd1">
-        <h3>Filter Search</h3>
+        <h3 className="fs">Filter Search</h3>
         <a href="" className="all">Clear All</a>
     </div>            
     <div>
@@ -127,17 +134,104 @@ class Contact extends Component {
 
         </div>
      </div>
+     <div>
+           
+           <h2 className="result">Search Result</h2>
+           </div>
+     <div className="Box4">
+    
+     <div className="sort">
+           <p>Sort by:</p>
+           <h4 className="new">Newest first</h4>
+          <AppsIcon className="App1`+"></AppsIcon>
+       </div>
+            <div className="boxx" style={{display:"flex"}}>
+                
+                <div className="box">
+                <img src={img1} alt="" className="box6"/>
+                    <h3 className="box1">Human Resources Manager</h3>
+                    <h6 className="box2">Full Time 4-6Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Mohali,Punjab</h6>
+                    </div>
+                    <h5 className="box4">Genlnvo technologies pvt</h5>
+                </div>
+                 <div className="box">
+                <img src={img2} alt="" className="box6"/>
+                    <h3 className="box1">SharePoint lead</h3>
+                    <h6 className="box2">Full Time 6-15Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Hyderabad,Telengana</h6>
+                    </div>
+                    <h5 className="box4">Acuvate software pvt ltd</h5>
+                </div>
+                <div className="box">
+                <img src={img3} alt="" className="box6"/>
+                    <h3 className="box1">CASA Officer</h3>
+                    <h6 className="box2">Full Time 0-1Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">India,India</h6>
+                    </div>
+                    <h5 className="box4">Response Informatics</h5>
+                </div>
+                <div className="box">
+                <img src={img4} alt="" className="box6"/>
+                    <h3 className="box1">Training Coordinator</h3>
+                    <h6 className="box2">Full Time 1.5-2Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Banglore,Karnataka</h6>
+                    </div>
+                    <h5 className="box4">NexionPro Services LLP</h5>
+                </div>
+                <div className="box">
+                <img src={img5} alt="" className="box6"/>
+                    <h3 className="box1">IT Application Delivery Consultant</h3>
+                    <h6 className="box2">Full Time 8-15Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Hyderabad,Telengana</h6>
+                    </div>
+                    <h5 className="box4">Tekwissen software pvt ltd</h5>
+                </div>
+                <div className="box">
+                <img src={img6} alt="" className="box6"/>
+                    <h3 className="box1">CASA Officert</h3>
+                    <h6 className="box2">Full Time 1-4Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">India,India</h6>
+                    </div>
+                    <h5 className="box4">Response Informatics</h5>
+                </div>
+                <div className="box">
+                <img src={img7} alt="" className="box6"/>
+                    <h3 className="box1">CEP Personal Banker</h3>
+                    <h6 className="box2">Full Time 2-5Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Delhi, Delhi,Hyderabad, Telangana,Mumbai..</h6>
+                    </div>
+                    <h5 className="box4">Response Informatics</h5>
+                </div>
+                <div className="box">
+                <img src={img7} alt="" className="box6"/>
+                    <h3 className="box1">CEP Personal Banker</h3>
+                    <h6 className="box2">Full Time 2-5Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Delhi, Delhi,Hyderabad, Telangana,Mumbai..</h6>
+                    </div>
+                    <h5 className="box4">Response Informatics</h5>
+                </div>
+                <div className="box">
+                <img src={img6} alt="" className="box6"/>
+                    <h3 className="box1">CASA Officert</h3>
+                    <h6 className="box2">Full Time 1-4Yrs</h6>
+                    <div style={{display:"flex"}}>
+                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">India,India</h6>
+                    </div>
+                    <h5 className="box4">Response Informatics</h5>
+                </div>
+            </div>
+            </div>
      </div>
-
-
-
 )
     }
     }
-   
-
-
-
-
-
-    export default Contact
+   export default Contact
