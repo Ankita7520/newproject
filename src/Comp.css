@@ -210,9 +210,10 @@ label{
 }
 .rht{
     margin-bottom: 50px;
+   margin-top:200px;
 }
 .boxx{
-    margin-top: 200px;
+    margin-top:600px;
     display: flex;
     flex-wrap:wrap;
     margin-left: -100px;
@@ -238,9 +239,10 @@ label{
 
 .sort{
     position: relative;
-    left: 400px;
+    left: 1200px;
     right: 0px;
     width:90px;
+    bottom:1890px;
  
 }
 .new{
@@ -254,6 +256,8 @@ label{
 position: relative;
 left:200px;
 bottom:255px;
+top: 200px;
+right:800px;
 }
 .search{
     position: relative;
@@ -266,16 +270,16 @@ bottom:255px;
     top: 7px;
 }
 .photo{
-    width: 130px;
+    width: 100px;
     height: 36px;
     margin-left: 5px;
-    margin-top: 2px;
+    margin-top: 6px;
 }
 .div-photo{
-    width: 150px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
     border: 1px solid white;
-    margin-left: 50px;
+    margin-left: 20px;
     background-color: white;
     border-radius: 10px;
 }
@@ -291,7 +295,7 @@ bottom:255px;
     display: flex;
     flex-wrap:wrap;
     text-align:center;
-    margin-left: 250px;
+    margin-left: 100px;
     background-color: ghostwhite;
    row-gap: 10px;
 }
@@ -303,8 +307,70 @@ bottom:255px;
     font-style: normal;
     font-size:medium;
 }
-.Register{
-    position: relative;
-    left: 1300px;
+.App1{
+    top:800px;
+}
+.img{
+    width: 140px;
+    height: 50px;
+    margin-left: 190px;
+}
+.main{
+    display: flex;
+    -webkit-box-shadow: 0 8px 6px -8px gray;
+    margin-left: -10px;
+    margin-right: 0px;
+    height:50px;
+}
+.tt{
+    margin-top: 15px;
+    margin-left: 75px;
+    width:200px;
+    
+}
+.but{
+    padding: 5px;
+    border: none;
+    padding-bottom: 20px;
+    margin-left: 20px
+
+    
+   
+    
+}
+a{
+    text-decoration: none;
+}
+.log{
+    margin-left: 600px;
+    margin-top: 15px;
+}
+.login{
+    border: 1px solid #fd815e;
+    color: #fd815e;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin: 10px;
+    padding: 3px 10px;
+    right: 0px;
+}
+#but{
+    color: #14bc9a;
+    border-bottom: 3px solid #14bc9a;
+    width:200px;
 }
 
+.Rightjob{
+    margin-top:70px;
+   margin-left:-2000px;
+   position: relative;
+   width: 2000px;
+   right: -400px;
+   
+   
+}
+#butt{
+    
+    width:300px;
+    margin-top: 10px;
+}

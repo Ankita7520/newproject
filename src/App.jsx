@@ -72,14 +72,28 @@ class App extends Component{
     return(
         <div className="body">
             <div className="main">
-            <h1>Get the <span>Right Job</span> You Deserve</h1>
+            <nav className="main">
+                <div>
+                <img src="https://truetalent.io/static/media/logo.e8c72fdf.svg" alt=""  className="img"/>
+                </div>
+                <div className="tt">
+                    <a href="/" className="but" id="but">TT Essential</a>
+                    <a href="/ttgig" className="but" id="butt">TT Gig</a>
+                </div>
+                <div className="log">
+                    <a href="/log" className="login">Login</a>
+                    <a href="/register" className="login">Register</a>
+               </div>
+               </nav>
+             <div className="Rightjob">
+             <h1>Get the <span>Right Job</span> You Deserve</h1>
             <p>Your next carrer move starts here</p>
+                </div>  
+            
             
             
             </div>
-            <div>
-                <button className="Register">Register</button>
-            </div>
+            
             <div className="rht">
             <div className="butn">
                 <button className="btn" id="btn"onClick={this.colorhandler} style={{backgroundColor:this.state.colr}}>Search Jobs</button>
@@ -94,7 +108,7 @@ class App extends Component{
                 <SlLocationPin></SlLocationPin>
                 <input type="text" placeholder="city" className="in" />
                 
-                <button className="btt" onClick={this.secondhandler}><SlMagnifier className="ic-ic"></SlMagnifier><a href="/contact" className="search">Search</a> </button>
+                <button className="btt" ><SlMagnifier className="ic-ic"></SlMagnifier><a href="/contact" className="search">Search</a> </button>
                 </div>
                
                 </div>

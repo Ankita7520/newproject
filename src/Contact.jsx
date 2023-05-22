@@ -138,13 +138,14 @@ class Contact extends Component {
            
            <h2 className="result">Search Result</h2>
            </div>
-     <div className="Box4">
-    
-     <div className="sort">
+           <div className="sort">
            <p>Sort by:</p>
            <h4 className="new">Newest first</h4>
-          <AppsIcon className="App1`+"></AppsIcon>
+          <AppsIcon className="App1"></AppsIcon>
        </div>
+     <div className="Box4">
+    
+     
             <div className="boxx" style={{display:"flex"}}>
                 
                 <div className="box">
