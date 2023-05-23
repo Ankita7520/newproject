@@ -15,6 +15,7 @@ import img5 from "./images/TW.jpg"
 import img6 from "./images/RI.png"
 import img7 from "./images/RI.png"
 import AppsIcon from '@mui/icons-material/Apps';
+import {MdViewDay} from "react-icons/md"
 
 
 class Contact extends Component {
@@ -34,6 +35,14 @@ class Contact extends Component {
            this.setState({name:true})
         }
    } 
+   iconhandler=()=>{
+           if(this.state.icon){
+            this.setState({icon:false})
+           }
+           else{
+            this.setState({icon:true})
+           }
+   }
     
     render () {
     return( <div className="second" style={{fontFamily:"system-ui,sans-serif"}}>
@@ -138,11 +147,15 @@ class Contact extends Component {
            
            <h2 className="result">Search Result</h2>
            </div>
-           <div className="sort">
-           <p>Sort by:</p>
+           <div>
+           <p className="sort">sort by:</p>
            <h4 className="new">Newest first</h4>
+           <div>
           <AppsIcon className="App1"></AppsIcon>
+          <MdViewDay className="ic-md" onClick={this.mdhandler}></MdViewDay>
+          </div>
        </div>
+       
      <div className="Box4">
     
      

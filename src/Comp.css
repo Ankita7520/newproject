@@ -236,21 +236,17 @@ label{
     padding-left: 20px;
     margin-top:300px;
 }
-
-.sort{
-    position: relative;
-    left: 1200px;
-    right: 0px;
-    width:90px;
-    bottom:1890px;
- 
-}
 .new{
     position: relative;
-    left:75px;
-    bottom:200px;
+    left:1100px;
+    bottom:1850px;
     width:100px;
     margin-top:180px;
+    color: black;
+    margin-right:0px;
+  
+   
+
 }
 .App{
 position: relative;
@@ -308,7 +304,9 @@ right:800px;
     font-size:medium;
 }
 .App1{
-    top:800px;
+    position:relative;
+    bottom: 1880px;
+    left:1170px
 }
 .img{
     width: 140px;
@@ -326,6 +324,7 @@ right:800px;
     margin-top: 15px;
     margin-left: 75px;
     width:200px;
+    color: #14BC9A;
     
 }
 .but{
@@ -344,6 +343,7 @@ a{
 .log{
     margin-left: 600px;
     margin-top: 15px;
+    color: #fd815e;
 }
 .login{
     border: 1px solid #fd815e;
@@ -373,4 +373,105 @@ a{
     
     width:300px;
     margin-top: 10px;
+}
+.sign{
+    
+    position: relative;
+    top: 200px;
+    left: 100px;
+    }
+.email{
+    width: 150px;
+    height: 45px;
+    background-color: #e8eaf1;
+    bottom: 5px;
+    
+   
+}
+.ic-ai{
+  
+    background-color: #e8eaf1;
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.password{
+    height: 45px;
+    background-color: #e8eaf1;
+    margin-top:10px ;
+    
+    width:350px ;
+    position: relative;
+    bottom:10px;
+    
+    
+}
+.ic-fi{
+   
+    background-color: #e8eaf1;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.RM{
+    margin-left: -160px;
+   
+}
+.fg{
+    margin-left: 130px;
+    color: #14BC9a;
+    font-weight: lighter;
+}
+.SI{
+    background-color:#14BC9a;
+    color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.google{
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.or{
+ margin-left:10px;
+ margin-top:15px;
+}
+.JS{
+    margin-left: 130px;
+    color: black;
+    font-weight:lighter;
+    font-size: 0.4cm;
+}
+.sort{
+    position: relative;
+    left: 1040px;
+    bottom: 1655px;
+}
+.ic-md{
+    position: relative;
+    left: 1180px;
+    bottom: 1890px;
+    width:40px;
+    height: 25px;
+    font-weight: lighter;
+    color: #c1c3c7;
+
+}
+.ao{
+    margin-bottom:-4px ;
+}
+.fl{
+    margin-bottom:9px ;  
+}
+.gg{
+    bottom:10px;
 }

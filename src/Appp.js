@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter,Route,Routes } from "react-router-dom"
 import Contact from "./Contact";
 import Register from "./About";
+import Log from "./Login";
 
 
 
@@ -14,6 +15,7 @@ const Appp=()=>{
                     <Route path="/" element={<App/>}></Route>
                     <Route path="/contact" element={<Contact/>}></Route>
                     <Route path="/register" element={<Register/>}></Route>
+                    <Route path="/log" element={<Log></Log>}></Route>
                 </Routes>
             </BrowserRouter>
         </div>

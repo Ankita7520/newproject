@@ -45,3 +45,60 @@ margin-top:7px;
     left: 500px;
     bottom:2300px;
   }
+  .th-job{
+    width: 150px;
+    text-align: start;
+    color: #656A72;
+    font-weight: lighter;
+}
+.th-skills{
+    width: 250px;
+    text-align: start;
+    color: #656A72;
+    font-weight: lighter;
+   
+}
+.th-location{
+    width: 200px;
+    text-align: start;
+    color: #656A72;
+    font-weight: lighter;
+}
+.th-company{
+    width: 150px;
+    text-align: start;
+    color: #656A72;
+    font-weight: lighter;
+}
+.th-type{
+    width: 100px;
+    text-align: start;
+    color: #656A72;
+    font-weight: lighter;
+}
+.th-exp{
+    width: 100px;
+    text-align: start;
+    color: #656A72;
+    font-weight: lighter;
+}
+.table{
+    border-collapse:collapse;
+    border: none;
+    position: relative;
+    top: 80px;
+    right: 680px;
+    width: 1000px;
+   
+}
+.td-one{
+    border-bottom: 1px solid black;
+    margin-left: 4px
+    
+}
+
+.td-one:hover{
+    background-color: #c1c3c7;
+    border-left: 4px solid #14bc9a;
+    
+}
