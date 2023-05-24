@@ -16,6 +16,8 @@ import img6 from "./images/RI.png"
 import img7 from "./images/RI.png"
 import AppsIcon from '@mui/icons-material/Apps';
 import {MdViewDay} from "react-icons/md"
+import Build from "./Build"
+import Blockk from "./Blockk"
 
 
 class Contact extends Component {
@@ -23,7 +25,8 @@ class Contact extends Component {
     constructor(){
         super()
         this.state={
-            name:true
+            name:true,
+            icon:true
 
          }
     }
@@ -35,15 +38,13 @@ class Contact extends Component {
            this.setState({name:true})
         }
    } 
+   
    iconhandler=()=>{
-           if(this.state.icon){
-            this.setState({icon:false})
-           }
-           else{
-            this.setState({icon:true})
-           }
+    this.setState({icon:true})
    }
-    
+    mdhandler=()=>{
+        this.setState({icon:false})
+    }
     render () {
     return( <div className="second" style={{fontFamily:"system-ui,sans-serif"}}>
     <div className="bd1">
@@ -151,99 +152,16 @@ class Contact extends Component {
            <p className="sort">sort by:</p>
            <h4 className="new">Newest first</h4>
            <div>
-          <AppsIcon className="App1"></AppsIcon>
+          <AppsIcon className="App1" onClick={this.iconhandler}></AppsIcon>
           <MdViewDay className="ic-md" onClick={this.mdhandler}></MdViewDay>
           </div>
        </div>
-       
-     <div className="Box4">
+       <div className="cls">
+        {
+           this.state.icon?<Build/>:<Blockk/>  
+        }
+       </div>
     
-     
-            <div className="boxx" style={{display:"flex"}}>
-                
-                <div className="box">
-                <img src={img1} alt="" className="box6"/>
-                    <h3 className="box1">Human Resources Manager</h3>
-                    <h6 className="box2">Full Time 4-6Yrs</h6>
-                    <div style={{display:"flex"}}>
-                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Mohali,Punjab</h6>
-                    </div>
-                    <h5 className="box4">Genlnvo technologies pvt</h5>
-                </div>
-                 <div className="box">
-                <img src={img2} alt="" className="box6"/>
-                    <h3 className="box1">SharePoint lead</h3>
-                    <h6 className="box2">Full Time 6-15Yrs</h6>
-                    <div style={{display:"flex"}}>
-                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Hyderabad,Telengana</h6>
-                    </div>
-                    <h5 className="box4">Acuvate software pvt ltd</h5>
-                </div>
-                <div className="box">
-                <img src={img3} alt="" className="box6"/>
-                    <h3 className="box1">CASA Officer</h3>
-                    <h6 className="box2">Full Time 0-1Yrs</h6>
-                    <div style={{display:"flex"}}>
-                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">India,India</h6>
-                    </div>
-                    <h5 className="box4">Response Informatics</h5>
-                </div>
-                <div className="box">
-                <img src={img4} alt="" className="box6"/>
-                    <h3 className="box1">Training Coordinator</h3>
-                    <h6 className="box2">Full Time 1.5-2Yrs</h6>
-                    <div style={{display:"flex"}}>
-                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Banglore,Karnataka</h6>
-                    </div>
-                    <h5 className="box4">NexionPro Services LLP</h5>
-                </div>
-                <div className="box">
-                <img src={img5} alt="" className="box6"/>
-                    <h3 className="box1">IT Application Delivery Consultant</h3>
-                    <h6 className="box2">Full Time 8-15Yrs</h6>
-                    <div style={{display:"flex"}}>
-                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Hyderabad,Telengana</h6>
-                    </div>
-                    <h5 className="box4">Tekwissen software pvt ltd</h5>
-                </div>
-                <div className="box">
-                <img src={img6} alt="" className="box6"/>
-                    <h3 className="box1">CASA Officert</h3>
-                    <h6 className="box2">Full Time 1-4Yrs</h6>
-                    <div style={{display:"flex"}}>
-                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">India,India</h6>
-                    </div>
-                    <h5 className="box4">Response Informatics</h5>
-                </div>
-                <div className="box">
-                <img src={img7} alt="" className="box6"/>
-                    <h3 className="box1">CEP Personal Banker</h3>
-                    <h6 className="box2">Full Time 2-5Yrs</h6>
-                    <div style={{display:"flex"}}>
-                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Delhi, Delhi,Hyderabad, Telangana,Mumbai..</h6>
-                    </div>
-                    <h5 className="box4">Response Informatics</h5>
-                </div>
-                <div className="box">
-                <img src={img7} alt="" className="box6"/>
-                    <h3 className="box1">CEP Personal Banker</h3>
-                    <h6 className="box2">Full Time 2-5Yrs</h6>
-                    <div style={{display:"flex"}}>
-                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Delhi, Delhi,Hyderabad, Telangana,Mumbai..</h6>
-                    </div>
-                    <h5 className="box4">Response Informatics</h5>
-                </div>
-                <div className="box">
-                <img src={img6} alt="" className="box6"/>
-                    <h3 className="box1">CASA Officert</h3>
-                    <h6 className="box2">Full Time 1-4Yrs</h6>
-                    <div style={{display:"flex"}}>
-                    <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">India,India</h6>
-                    </div>
-                    <h5 className="box4">Response Informatics</h5>
-                </div>
-            </div>
-            </div>
      </div>
 )
     }

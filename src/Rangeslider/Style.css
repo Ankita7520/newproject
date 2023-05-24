@@ -102,3 +102,25 @@ margin-top:7px;
     border-left: 4px solid #14bc9a;
     
 }
+.Top-tier{
+  position: relative;
+  bottom: 60px;
+}
+.cls{
+  
+  position: relative;
+  left:350px;
+  bottom: 1850px;
+  height:550px;
+  width: max-content;
+}
+.table{
+  position: relative;
+  left:60px;
+  margin-bottom: 400;
+  
+
+  
+  
+  
+}

@@ -221,6 +221,7 @@ label{
     
 
 }
+
 .box9{
     border: 1px solid gray;
     width: 280px;
@@ -286,14 +287,17 @@ right:800px;
 .photo-main{
     padding: 20px 10px;
     width: 1200px;
-    height: 160px;
-    border: 1px solid ghostwhite;
+    height: 150px;
     display: flex;
     flex-wrap:wrap;
     text-align:center;
     margin-left: 100px;
-    background-color: ghostwhite;
    row-gap: 10px;
+   margin-left:60px ;
+   margin-right: -4px;
+   position: relative;
+   left:100px;
+   bottom: 50px;
 }
 .result{
     position: relative;
@@ -305,7 +309,7 @@ right:800px;
 }
 .App1{
     position:relative;
-    bottom: 1880px;
+    bottom:1880px;
     left:1170px
 }
 .img{
