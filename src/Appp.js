@@ -4,6 +4,7 @@ import { BrowserRouter,Route,Routes } from "react-router-dom"
 import Contact from "./Contact";
 import Register from "./About";
 import Log from "./Login";
+import Build from "./Build";
 
 
 
@@ -16,8 +17,10 @@ const Appp=()=>{
                     <Route path="/contact" element={<Contact/>}></Route>
                     <Route path="/register" element={<Register/>}></Route>
                     <Route path="/log" element={<Log></Log>}></Route>
+                    
                 </Routes>
             </BrowserRouter>
+            {/* <Build></Build> */}
         </div>
     )
 }

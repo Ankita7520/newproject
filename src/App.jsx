@@ -10,6 +10,7 @@ import Images from "../src/images/passphoto.jpg";
 import  Calandar from "./Calandar/Index";
 import About from "./About"
 import Contact from "./Contact"
+
 import img1 from "./images/one.jpg"
 import img2 from "./images/two.jpg"
 import img3 from "./images/three.jpg"
@@ -86,13 +87,9 @@ class App extends Component{
                </nav>
              <div className="Rightjob">
              <h1>Get the <span>Right Job</span> You Deserve</h1>
-            <p>Your next carrer move starts here</p>
+             <p className="career">Your next carrer move starts here</p>
                 </div>  
-            
-            
-            
             </div>
-            
             <div className="rht">
             <div className="butn">
                 <button className="btn" id="btn"onClick={this.colorhandler} style={{backgroundColor:this.state.colr}}>Search Jobs</button>
@@ -101,11 +98,11 @@ class App extends Component{
             <div className="input">
             <div className="skill">
             <SlMagnifier></SlMagnifier>
-                <input type="text" placeholder="Skill/Job roles"/>
+                <input type="text" placeholder="Skill/Job roles" className="in-inp"/>
             </div>
                 <div className="sear">
-                <SlLocationPin></SlLocationPin>
-                <input type="text" placeholder="city" className="in" />
+                <SlLocationPin className="loc"></SlLocationPin>
+                <input type="text" placeholder="city" className="in"/>
                 
                 <button className="btt" ><SlMagnifier className="ic-ic"></SlMagnifier><a href="/contact" className="search">Search</a> </button>
                 </div>
@@ -172,9 +169,93 @@ class App extends Component{
             <div className="div-photo">
                 <img src={img16} alt="" className="photo" />
             </div>
-            
-
             </div>
+            <div>
+                <h2 className="you">Featured  Jobs <span className="spn">for </span>you </h2>
+            </div>
+        
+            <div className="offer">
+        <div className="box">
+            <div className="box7">
+                   <img src={img1} alt="" className="box6"/>
+                       <h3 className="box1">Software Development Lead</h3>
+                       <h6 className="box2">Full Time 5-9Yrs</h6>
+                       <div style={{display:"flex"}}>
+                       <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Bengalore</h6>
+                       </div>
+            </div>           
+                       <h5 className="box4">Cashfree Payments</h5>
+                   </div>
+                   <div className="box">
+            <div className="box7">
+                   <img src={img2} alt="" className="box6"/>
+                       <h3 className="box1">Social Media Influencer</h3>
+                       <h6 className="box2">Full Time 2-4Yrs</h6>
+                       <div style={{display:"flex"}}>
+                       <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Asudabi</h6>
+                       </div>
+            </div>           
+                       <h5 className="box4">Tidalwave Solution</h5>
+                   </div>
+                   <div className="box">
+            <div className="box7">
+                   <img src={img3} alt="" className="box6"/>
+                       <h3 className="box1">Technical Lead </h3>
+                       <h6 className="box2">Full Time 5-6Yrs</h6>
+                       <div style={{display:"flex"}}>
+                       <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Bengalore,Hyderabad</h6>
+                       </div>
+            </div>           
+                       <h5 className="box4">Response Informatics</h5>
+                   </div>
+                   <div className="box">
+            <div className="box7">
+                   <img src={img4} alt="" className="box6"/>
+                       <h3 className="box1">Site Reliability Engineer</h3>
+                       <h6 className="box2">Full Time 4-7Yrs</h6>
+                       <div style={{display:"flex"}}>
+                       <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">Bengalore</h6>
+                       </div>
+            </div>           
+                       <h5 className="box4">Response Informatics</h5>
+                   </div>
+                   <div className="box">
+            <div className="box7">
+                   <img src={img5} alt="" className="box6"/>
+                       <h3 className="box1">5year experience in C++ Development</h3>
+                       <h6 className="box2">Full Time 1-4Yrs</h6>
+                       <div style={{display:"flex"}}>
+                       <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">India,India</h6>
+                       </div>
+            </div>           
+                       <h5 className="box4">Response Informatics</h5>
+                   </div>
+                   <div className="box">
+            <div className="box7">
+                   <img src={img6} alt="" className="box6"/>
+                       <h3 className="box1">CASA Officert</h3>
+                       <h6 className="box2">Full Time 1-4Yrs</h6>
+                       <div style={{display:"flex"}}>
+                       <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">India,India</h6>
+                       </div>
+            </div>           
+                       <h5 className="box4">Response Informatics</h5>
+                   </div>
+                   <div className="box">
+                    <div></div>
+            <div className="box7">
+                   <img src={img7} alt="" className="box6"/>
+                       <h3 className="box1">SharePoint lead</h3>
+                       <h6 className="box2">Full Time 1-4Yrs</h6>
+                       <div style={{display:"flex"}}>
+                       <SlLocationPin className="box5"></SlLocationPin><h6 className="box3">India,India</h6>
+                       </div>
+                       </div> 
+                    <h5 className="box4">Response Informatics</h5>
+                   </div>
+                   
+                   
+                   </div>
             </div>
            
             

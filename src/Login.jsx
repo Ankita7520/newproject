@@ -1,10 +1,15 @@
 import { floatButtonPrefixCls } from "antd/es/float-button/FloatButton";
-import React from "react";
+import React, { useState } from "react";
 import { FcGoogle } from "react-icons/fc"
 import {AiOutlineMail} from "react-icons/ai"
 import {FiLock,FiEye} from "react-icons/fi"
+import Password from "antd/es/input/Password";
 
 const Log =()=>{
+    let[pass,setpassword]=useState(true)
+    let password=()=>{
+        setpassword(!pass)
+    }
     return(
         <div style={{display:"flex"}}>
             <div className="reg">
@@ -27,8 +32,8 @@ const Log =()=>{
                         </div>
                         <div className="ic-fi">
                         <FiLock className="fl"></FiLock>
-                        <input type="password" placeholder="Password" className="password"/>
-                        <FiEye></FiEye>
+                        <input type={pass?"text": "password"}  placeholder="Password" className="password"/>
+                        <FiEye id="ic-ai" onClick={password}></FiEye>
                         </div>
                         <div style={{display:"flex"}}>
                         <input type="checkbox" className="RM"/> <label htmlFor="">Remember Me</label><br></br>
