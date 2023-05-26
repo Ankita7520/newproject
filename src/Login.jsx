@@ -15,7 +15,7 @@ const Log =()=>{
             <div className="reg">
                 <img src="https://truetalent.io/Assets/images/login_banner.png?1" alt="" className="cover"/>
                 <div>
-                   <h2 className="dream">Experience Hiring 2.0 with <span>True Talent</span></h2>
+                   <h3 className="dream">Experience Hiring 2.0 with <span>True Talent</span></h3>
                 </div>
                 <div style={{textAlign:"center"}}>
                     <button className="learn"><span>Learn more about TrueTalent</span></button>

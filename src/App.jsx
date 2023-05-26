@@ -37,6 +37,7 @@ class App extends Component{
             colour:"white",
             name:true,
             second:true
+            
 
 
          }
@@ -66,7 +67,7 @@ class App extends Component{
             second:false
         })
     }
-
+   
 
     render(){
     return(
@@ -81,12 +82,12 @@ class App extends Component{
                     <a href="/ttgig" className="but" id="butt">TT Gig</a>
                 </div>
                 <div className="log">
-                    <a href="/log" className="login">Login</a>
+                   <a href="/log" className="login">Login</a>
                     <a href="/register" className="login">Register</a>
                </div>
                </nav>
              <div className="Rightjob">
-             <h1>Get the <span>Right Job</span> You Deserve</h1>
+             <h1 className="RJ">Get the <span>Right Job</span> You Deserve</h1>
              <p className="career">Your next carrer move starts here</p>
                 </div>  
             </div>
@@ -118,7 +119,7 @@ class App extends Component{
             <img src={Images} alt="passphoto.jpg" className="image"/>
           </div>
             <div>
-                <h2 className="Top-tier"><span>Trusted by </span> top-tier companies</h2>
+                <h1 className="Top-tier"><span>Trusted by </span> top-tier companies</h1>
                 </div>
             <div className="photo-main">
             <div className="div-photo">

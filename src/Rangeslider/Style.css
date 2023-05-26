@@ -50,12 +50,17 @@ margin-top:7px;
     text-align: start;
     color: #656A72;
     font-weight: lighter;
+    margin-left: 20px;
 }
 .th-skills{
     width: 250px;
     text-align: start;
     color: #656A72;
     font-weight: lighter;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-spacing: 30px;
+    border-collapse: 40px;
    
 }
 .th-location{
@@ -93,7 +98,10 @@ margin-top:7px;
 }
 .td-one{
     border-bottom: 1px solid black;
-    margin-left: 4px
+    margin-left: 4px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
     
 }
 
@@ -104,7 +112,9 @@ margin-top:7px;
 }
 .Top-tier{
   position: relative;
-  bottom: 60px;
+  bottom: 80px;
+  font-size: 1.5em;
+  font-weight: lighter;
 }
 .cls{
   

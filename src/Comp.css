@@ -59,6 +59,8 @@ input:hover{
 }
 .rht{
     margin-left: 280px;
+    position: relative;
+    bottom: 40px;
 }
 .skill{
     border: 1px solid gray;
@@ -68,6 +70,8 @@ input:hover{
 .in-inp{
     width: 320px;
     height: 46px;
+    color: white;
+    font-weight:lighter;
 }
 #btn{
     background-color:  #14bc9acd;
@@ -156,9 +160,7 @@ label{
 .input-range__track--active{
    background-color: #14BC9A;
 }
-
-
-    .ip{
+.ip{
     width: 100px;
     border: 1px solid gray;
     border-radius: 10px;
@@ -227,6 +229,7 @@ right:800px;
     position: relative;
     bottom: 10px;
     right: 100px;
+    color: white;
 }
 .ic-ic{
     position: relative;
@@ -314,16 +317,18 @@ a{
 .log{
     margin-left: 600px;
     margin-top: 15px;
-    color: #fd815e;
+    color:white;
+    
 }
 .login{
     border: 1px solid #fd815e;
-    color: #fd815e;
+    color: white;
     border-radius: 5px;
-    background-color: #FFFFFF;
+    background-color:#fd815e;
     margin: 10px;
     padding: 3px 10px;
     right: 0px;
+    
 }
 #but{
     color: #14bc9a;
@@ -332,8 +337,8 @@ a{
 }
 
 .Rightjob{
-    margin-top:70px;
-   margin-left:-2000px;
+   margin-top:70px;
+   margin-left:-2100px;
    position: relative;
    width: 2000px;
    right: -400px;
@@ -522,4 +527,19 @@ a{
 }
 .spn{
     color: #14BC9A;
+}
+.RJ{
+    font-weight: 600;
+    font-size: 1.1cm;
+}
+.cover{
+    position: relative;
+    left:90px;
+    height: max-content;
+    width:700px;
+}
+.dream{
+   font-size: 1.3em;
+   margin-left: 20px;
+   object-fit: contain;
 }
