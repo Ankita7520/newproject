@@ -1,7 +1,14 @@
 import React from "react"
+import { useNavigate } from "react-router-dom"
 
 
 const Register=()=>{
+
+    let nag=useNavigate()
+
+    let candidate=()=>{
+        nag("/candidate")
+    }
     return(
         <div>
                 
@@ -19,7 +26,7 @@ const Register=()=>{
                 <div>
                     <h3 style={{textAlign:"center",fontWeight:"lighter",fontSize:"x-large"}}>Select Your Profile</h3>
                 </div>
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex"}} onClick={candidate}>
                     <div className="candidate">
                        <img src="https://truetalent.io/static/media/candidate.1f92a671.svg" alt="" className="ic-ri"/>
                        <h4 className="can">I'm a candidate</h4>

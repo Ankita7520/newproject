@@ -543,3 +543,70 @@ a{
    margin-left: 20px;
    object-fit: contain;
 }
+.inp-first{
+    width: 170px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.inp-email{
+    width: 364px;
+    height: 35px;
+    background-color: #f7f7f7;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#inp-pass{
+    height: 35px;
+    width: 135px;
+   
+    background-color: #f7f7f7;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#inp-cpass{
+    width: 170px;
+    height: 35px;
+    margin-left: 23px;
+    background-color: #f7f7f7;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.inp-create{
+    width: 370px;
+    height: 40px;
+    background-color: #f7f7f7;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 35px;
+
+}
+#inp-create{
+    background-color: #14bc9a;
+    color: white;
+}
+.inp-main{
+   
+    text-align: center;
+    margin-left: 280px;
+    margin-top: 100px;
+}
+.reg-pass{
+   background-color: #f7f7f7;
+    margin-left: 20px;
+    height: 39px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.inp-check{
+    margin-bottom: 20px;
+    
+}
+.inp-text{
+    font-size: small;
+}

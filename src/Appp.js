@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Register from "./About";
 import Log from "./Login";
 import Build from "./Build";
+import Candidate from "./Candidate";
 
 
 
@@ -17,7 +18,7 @@ const Appp=()=>{
                     <Route path="/contact" element={<Contact/>}></Route>
                     <Route path="/register" element={<Register/>}></Route>
                     <Route path="/log" element={<Log></Log>}></Route>
-                    
+                    <Route path="/candidate" element={<Candidate></Candidate>}></Route>
                 </Routes>
             </BrowserRouter>
             {/* <Build></Build> */}
