@@ -10,7 +10,7 @@ import Images from "../src/images/passphoto.jpg";
 import  Calandar from "./Calandar/Index";
 import About from "./About"
 import Contact from "./Contact"
-
+import Caindi from "./Caindi";
 import img1 from "./images/one.jpg"
 import img2 from "./images/two.jpg"
 import img3 from "./images/three.jpg"

@@ -610,3 +610,50 @@ a{
 .inp-text{
     font-size: small;
 }
+.emp{
+   position: relative;
+   left: 20px;
+   border-radius: 10px;
+   width: 100px;
+   height:30px;
+   border-color: none;
+}
+.candi{
+   border-radius: 10px;
+   width: 100px;
+   height:30px;
+   border-color:none;
+   
+}
+.inp-comp{
+    width: 364px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+}
+.inp-web{
+    width: 170px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+}
+.inp-select{
+    width: 170px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    outline: none;
+    margin-bottom: 20px;
+}
+.inp-accept{
+    margin-bottom: 25px;
+}
+.inp-company{
+    font-weight: lighter;
+    font-size: larger;
+}

@@ -9,7 +9,10 @@ const Register=()=>{
     let candidate=()=>{
         nag("/candidate")
     }
-    return(
+    let emphandler=()=>{
+        nag("/candi")}
+    
+     return(
         <div>
                 
             <div style={{display:"flex"}}>
@@ -32,9 +35,9 @@ const Register=()=>{
                        <h4 className="can">I'm a candidate</h4>
                        <h6 className="can">I am here to find my next job</h6>
                     </div>
-                    <div className="candidate">
+                    <div className="candidate" onClick={emphandler}>
                         <img src="https://truetalent.io/static/media/employer.4a450d68.svg" alt="" className="ic-ri"/>
-                        <h4 className="can">I'm an employer</h4>
+                        <h4 className="can" >I'm an employer</h4>
                         <h6 className="can">I am here to look for job<br></br> seekers</h6>
                     </div>
                 </div>
@@ -42,7 +45,8 @@ const Register=()=>{
             </div>
             
             </div>
-    )
+     )
+    
 }
 export default Register
 
