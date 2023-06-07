@@ -6,7 +6,8 @@ import Register from "./About";
 import Log from "./Login";
 import Build from "./Build";
 import Candidate from "./Candidate";
-import Caindi from "./Caindi"
+import Caindi from "./Caindi";
+import Add from "./Add"
 
 
 
@@ -15,12 +16,13 @@ const Appp=()=>{
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<App/>}></Route>
+                    <Route path="/home" element={<App/>}></Route>
                     <Route path="/contact" element={<Contact/>}></Route>
                     <Route path="/register" element={<Register/>}></Route>
                     <Route path="/log" element={<Log></Log>}></Route>
                     <Route path="/candidate" element={<Candidate></Candidate>}></Route>
                     <Route path="/caindi" element={<Caindi/>}></Route>
+                    <Route path="/" element={<Add/>}></Route>
                 </Routes>
             </BrowserRouter>
             {/* <Build></Build> */}
