@@ -11,6 +11,8 @@ import  Calandar from "./Calandar/Index";
 import About from "./About"
 import Contact from "./Contact"
 import Caindi from "./Caindi";
+import {CiFacebook,CiTwitter}from "react-icons/ci";
+import {AiOutlineLinkedin,AiOutlineInstagram,AiOutlineYoutube} from "react-icons/ai"
 import img1 from "./images/one.jpg"
 import img2 from "./images/two.jpg"
 import img3 from "./images/three.jpg"
@@ -257,6 +259,76 @@ class App extends Component{
                    
                    
                    </div>
+                   <div style={{textAlign:"center"}}>
+                <h1 className="id-text">Popular <span>Industry Domain</span></h1>
+            </div>
+            <div className="id-main">
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/technology.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Technology</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/education.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Education</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/hospitality.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Hospitality</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/healthcare.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Healthcare</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/engg.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Engineering and <br />Construction</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/banking.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Banking</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/financial.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Finance</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/auto.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Automotive</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/telecom.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Telecom</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/chemical.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Chemical</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/travel.svg" alt="" className="id-2"/>
+                    <h3 className="id-3">Travel</h3>
+                </div>
+                <div style={{display:"flex"}} className="id-1">
+                    <img src="https://console.truetalent.io/img/svg/retail.svg" alt="" className="id-2" />
+                    <h3 className="id-3">Retail</h3>
+                </div>
+            </div>
+            <div className="foot-main">
+                <footer>
+                   <div className="foot-first">
+                   <a href="" className="foot-1">Home</a>
+                        <a href="" className="foot-1">About Us</a>
+                        <a href="" className="foot-1">Contact Us</a>
+                        <a href="" className="foot-1">Giveaway</a>
+                        <a href="" className="foot-1">Blog</a>
+                        <a href="" className="foot-1">TermsofUse&PrivacyPolicy</a>
+                   </div>
+                    <div style={{display:"flex"}}>
+                        <p className="foot-2">All rights reserved@2023FindProTechnologySolutionsPvt.Ltd</p>
+                        <p className="foot-3">StayConnected<CiFacebook className="foot-4"></CiFacebook><AiOutlineLinkedin className="foot-4"></AiOutlineLinkedin><CiTwitter className="foot-4"></CiTwitter><AiOutlineInstagram className="foot-4"></AiOutlineInstagram><AiOutlineYoutube className="foot-4"></AiOutlineYoutube></p>
+                    </div>
+                </footer>
+
+            </div>
             </div>
            
             

@@ -702,3 +702,71 @@ a{
     color: white;
     margin-left: 15px;
 }
+.id-1{
+    border: 1px solid white;
+    width: 195px;
+    height: 75px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgb(200, 199, 199);
+   
+}
+.id-2{
+    width: 22px;
+    height: 22px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.id-3{
+    font-weight: lighter;
+    font-size: medium;
+    margin-top: 22px;
+    margin-left: 5px;
+}
+.id-main{
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 1350px;
+    margin-left: 100px;
+}
+.id-text{
+    font-weight: bold;
+    font-size: 25px;
+}
+.foot-1{
+    color: white;
+    position: relative;
+    left: 200px;
+    margin-left: 50PX;
+    padding: 5px;
+    font-size: small;
+}
+.foot-li{
+    text-decoration: none;
+    
+}
+.foot-2{
+    margin-left: 250px;
+    color: ghostwhite;
+    font-size: smaller;
+}
+.foot-3{
+    margin-left: 500px;
+   color: white;
+   font-size: smaller;
+}
+.foot-4{
+    margin-left: 10px;
+   
+    margin-top: 5px;
+}
+.foot-main{
+    margin-bottom: -1%;
+    margin-left: -1%;
+    margin-right: 0%;
+    background-color: rgb(26, 26, 122);
+}
+.foot-first{
+    border-bottom: 1px solid white;
+}
