@@ -8,12 +8,13 @@ import Build from "./Build";
 import Candidate from "./Candidate";
 import Caindi from "./Caindi";
 import Add from "./Add"
+import Ttgig from "./Ttgig";
 
 
 
 const Appp=()=>{
     return(
-        <div>
+        <div style={{width:"1450px"}}>
             <BrowserRouter>
                 <Routes>
                     <Route path="/home" element={<App/>}></Route>
@@ -23,6 +24,7 @@ const Appp=()=>{
                     <Route path="/candidate" element={<Candidate></Candidate>}></Route>
                     <Route path="/caindi" element={<Caindi/>}></Route>
                     <Route path="/" element={<Add/>}></Route>
+                    <Route path="/Ttgig" element={<Ttgig></Ttgig>}></Route>
                 </Routes>
             </BrowserRouter>
             {/* <Build></Build> */}

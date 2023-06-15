@@ -7,6 +7,10 @@ input{
     border: none;
     outline: none;
 }
+.body{
+    border: 1px solid gray;
+    width: 1450px;
+}
 span{
     color:#14bc9a;
 }
