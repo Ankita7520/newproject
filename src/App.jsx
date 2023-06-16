@@ -111,6 +111,13 @@ class App extends Component{
                 </div>
                
                 </div>
+                <div className="TK">
+                    <input className="NM" type="radio" name="normalsearch-type" value="smart" checked></input>
+                    
+                    <label className="Smart"for="normal search">TT smart search</label>
+                    <input className="KEYWORD" type="radio" name="Keywordsearch-type" value="smart" checked></input>
+                    <label className="KS" for="Keyword search">Keyword search</label>
+                </div>
             </div>
             <div style={{display:"flex"}}>
             {
