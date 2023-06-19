@@ -11,6 +11,7 @@ input{
     border: 1px solid gray;
     width: 1450px;
 }
+
 span{
     color:#14bc9a;
 }
@@ -24,7 +25,8 @@ h1{
 .btn{
     background-color: white;
     border: 1px solid gray;
-    width:140px;
+    width:11%;
+    margin-right: 2px;
    height: 30px;
    border-top-right-radius: 10px;
    border-top-left-radius: 10px;
@@ -32,7 +34,7 @@ h1{
 
 .in{
     border: none;
-    width: 320px;
+    width:27.7vw;
     height: 46px;
     
 }
@@ -42,21 +44,22 @@ input:hover{
 .sear{
     border: 1px solid gray;
     height: 49px;
+    width: 36vw;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
     
 }
 .input{
     display: flex;
+    
 }
 .btt{
     border-radius: 5px;
-    margin-left: 50px;
    
     position: relative;
     bottom: 7px;
-    width: 100px;
-    height:49px;
+    width: 6.9vw;
+    height:100%;
     border: 1px solid ghostwhite;
     background-color:  #14bc9a;
     color: ghostwhite;
@@ -68,11 +71,11 @@ input:hover{
 }
 .skill{
     border: 1px solid gray;
-    width: 340px;
+   
     border-bottom-left-radius: 10px;
 }
 .in-inp{
-    width: 320px;
+    width: 25vw;
     height: 46px;
     color: white;
     font-weight:lighter;
@@ -108,7 +111,7 @@ a{
     color: black;
 }
 .ic-ic{
-    margin-right: 17px;
+    margin-right: 40%;
 }
 
 .inp{
@@ -253,6 +256,7 @@ right:800px;
     margin-left: 20px;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0 0 5px rgb(207, 207, 207);
 }
 .div-photo:hover{
     border-color: #14bc9a;
@@ -289,7 +293,7 @@ right:800px;
 .img{
     width: 140px;
     height: 50px;
-    margin-left: 190px;
+    margin-left: 130%;
 }
 .main{
     display: flex;
@@ -299,9 +303,10 @@ right:800px;
     height:50px;
 }
 .tt{
-    margin-top: 15px;
-    margin-left: 75px;
-    width:200px;
+   position: relative;
+   left: 40%;
+   top: 12%;
+    width:40%;
     color: #14BC9A;
     
 }
@@ -319,9 +324,9 @@ a{
     text-decoration: none;
 }
 .log{
-    margin-left: 600px;
-    margin-top: 15px;
-    color:white;
+    position: relative;
+    left: 60vw;
+    top: 30%;
     
 }
 .login{
@@ -341,11 +346,7 @@ a{
 }
 
 .Rightjob{
-   margin-top:70px;
-   margin-left:-2100px;
-   position: relative;
-   width: 2000px;
-   right: -400px;
+   margin-top: 5%;
    
    
 }
@@ -422,6 +423,13 @@ a{
     border-radius: 10px;
     margin-top: 20px;
 }
+.Top-tier{
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    font-size:xx-small;
+    font: 8px;
+}
 .or{
  margin-left:10px;
  margin-top:15px;
@@ -431,6 +439,15 @@ a{
     color: black;
     font-weight:lighter;
     font-size: 0.4cm;
+}
+.you{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+   margin-left: 100px;
+}
+.id-text{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-left: 100px;
+
 }
 .sort{
     position: relative;
@@ -495,11 +512,11 @@ a{
     margin-top: 5px;
 }
 .box{
-    border: 1px solid gray;
+    border: 1px solid white;
     width: 200px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(200, 199, 199);
-    margin-left: 5px;
+    box-shadow: 0 0 5px rgb(207, 207, 207);
+    margin-left: 15px;
     margin-bottom: 5px;
 }
 .box:hover{
@@ -517,7 +534,7 @@ a{
 .offer{
     display: flex;
     flex-wrap:nowrap;
-    width: 1200px;
+    width: 1150px;
     margin-left:150px;
     padding:20px;
     margin-bottom: 50px;
@@ -528,6 +545,9 @@ a{
     left:530px;
     bottom: 40px;
     
+}
+.sign{
+margin-left: 250px;
 }
 .spn{
     color: #14BC9A;
@@ -808,3 +828,67 @@ a{
     top:5px;
     right: 250px;
 }
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.sec{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.anchor{
+    color:#4B8BFF;
+}
+.eligibility{
+    font-weight: light;
+    font-size: small;
+}
+.giveaway{
+    font-weight:light;
+    font-size: 1em;
+}
+@media (max-width:500px){
+    .img{
+        margin-left: 20%;
+    }
+    .tt{
+        visibility: hidden;
+    }
+    .log{
+        margin-left: -20%;
+    }
+    .input{
+        width: fit-content;
+        height: inherit;
+        display: block;
+    }
+    .skill{
+        width: 100vw;
+        height: 20vw;
+        border-radius: 10px;
+    }
+    .searc{
+        width: 100vw;
+        height: 20vw;
+        border-radius: 10px;
+        border: 1px solid gray;
+    }
+    .sear{
+        border: none;
+    }
+    .btt{
+        width: 100vw;
+        margin-top: 10px;
+
+    }
+    .TK{
+        margin-top: 20vw;
+    }
+}
+

@@ -104,10 +104,13 @@ class App extends Component{
                 <input type="text" placeholder="Skill/Job roles" className="in-inp"/>
             </div>
                 <div className="sear">
+                
                 <SlLocationPin className="loc"></SlLocationPin>
+                
                 <input type="text" placeholder="city" className="in"/>
                 
                 <button className="btt" ><SlMagnifier className="ic-ic"></SlMagnifier><a href="/contact" className="search">Search</a> </button>
+                
                 </div>
                
                 </div>
@@ -325,7 +328,7 @@ class App extends Component{
                    <a href="" className="foot-1">Home</a>
                         <a href="" className="foot-1">About Us</a>
                         <a href="" className="foot-1">Contact Us</a>
-                        <a href="" className="foot-1">Giveaway</a>
+                        <a href="/giveaway" className="foot-1">Giveaway</a>
                         <a href="" className="foot-1">Blog</a>
                         <a href="" className="foot-1">TermsofUse&PrivacyPolicy</a>
                    </div>

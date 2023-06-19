@@ -9,6 +9,7 @@ import Candidate from "./Candidate";
 import Caindi from "./Caindi";
 import Add from "./Add"
 import Ttgig from "./Ttgig";
+import Giveaway from "./Giveaway";
 
 
 
@@ -25,6 +26,9 @@ const Appp=()=>{
                     <Route path="/caindi" element={<Caindi/>}></Route>
                     <Route path="/" element={<Add/>}></Route>
                     <Route path="/Ttgig" element={<Ttgig></Ttgig>}></Route>
+                    <Route path="/giveaway" element={<Giveaway></Giveaway>}></Route>
+                    
+
                 </Routes>
             </BrowserRouter>
             {/* <Build></Build> */}

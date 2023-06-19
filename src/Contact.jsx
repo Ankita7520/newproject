@@ -46,7 +46,9 @@ class Contact extends Component {
         this.setState({icon:false})
     }
     render () {
-    return( <div className="second" style={{fontFamily:"system-ui,sans-serif"}}>
+    return( 
+        <div className="sec">
+    <div className="second" style={{fontFamily:"system-ui,sans-serif"}}>
     <div className="bd1">
         <h3 className="fs">Filter Search</h3>
         <a href="" className="all">Clear All</a>
@@ -162,6 +164,7 @@ class Contact extends Component {
         }
        </div>
     
+     </div>
      </div>
 )
     }
