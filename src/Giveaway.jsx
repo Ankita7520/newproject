@@ -19,7 +19,7 @@ const Giveaway=()=>{
                 <p className="eligibility">
                 To participate in this giveaway, one must follow the below steps:<br></br>
 
-1. Register their profile(resume)at<a href="www.truetalent.io" className="anchor">www.truetalent.io</a>.The registration must be complete with all details filled. Partially completed profile will make the participant ineligible.<br></br>
+1. Register their profile(resume)at www.truetalent.io.The registration must be complete with all details filled. Partially completed profile will make the participant ineligible.<br></br>
 
 2. Besides completing the first step, participants must follow at least one of the social media (Facebook, Instagram, Linkedin, Twitter, Youtube) handles of TrueTalent.io. The links to the social media<br></br> handles are provided below for easy reference.<br></br>
 

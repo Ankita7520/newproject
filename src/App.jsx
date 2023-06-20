@@ -75,7 +75,7 @@ class App extends Component{
     return(
         <div className="body">
             <div className="main">
-            <nav className="main">
+            <nav className="main" id="main">
                 <div>
                 <img src="https://truetalent.io/static/media/logo.e8c72fdf.svg" alt=""  className="img"/>
                 </div>
@@ -84,7 +84,7 @@ class App extends Component{
                     <a href="/ttgig" className="but" id="butt">TT Gig</a>
                 </div>
                 <div className="log">
-                   <a href="/log" className="login">Login</a>
+                   <a href="/log" className="login"id="inlog" >Login</a>
                     <a href="/register" className="login">Register</a>
                </div>
                </nav>
@@ -104,13 +104,14 @@ class App extends Component{
                 <input type="text" placeholder="Skill/Job roles" className="in-inp"/>
             </div>
                 <div className="sear">
-                
+                <div className="searc">
                 <SlLocationPin className="loc"></SlLocationPin>
                 
                 <input type="text" placeholder="city" className="in"/>
-                
+                </div>
+                <div className="searchh">
                 <button className="btt" ><SlMagnifier className="ic-ic"></SlMagnifier><a href="/contact" className="search">Search</a> </button>
-                
+                </div>
                 </div>
                
                 </div>
@@ -330,7 +331,7 @@ class App extends Component{
                         <a href="" className="foot-1">Contact Us</a>
                         <a href="/giveaway" className="foot-1">Giveaway</a>
                         <a href="" className="foot-1">Blog</a>
-                        <a href="" className="foot-1">TermsofUse&PrivacyPolicy</a>
+                        <a href="/policy" className="foot-1">TermsofUse&PrivacyPolicy</a>
                    </div>
                     <div style={{display:"flex"}}>
                         <p className="foot-2">All rights reserved@2023FindProTechnologySolutionsPvt.Ltd</p>
