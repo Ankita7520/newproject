@@ -29,6 +29,7 @@ import img13 from "./images/13.png"
 import img14 from "./images/14.png"
 import img15 from "./images/15.jpg"
 import img16 from "./images/16.jpg"
+
 class App extends Component{
     constructor(){
       super()
@@ -328,7 +329,7 @@ class App extends Component{
                    <div className="foot-first">
                    <a href="" className="foot-1">Home</a>
                         <a href="" className="foot-1">About Us</a>
-                        <a href="" className="foot-1">Contact Us</a>
+                        <a href="Contactus" className="foot-1">Contact Us</a>
                         <a href="/giveaway" className="foot-1">Giveaway</a>
                         <a href="" className="foot-1">Blog</a>
                         <a href="/policy" className="foot-1">TermsofUse&PrivacyPolicy</a>

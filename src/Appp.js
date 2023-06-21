@@ -10,7 +10,9 @@ import Caindi from "./Caindi";
 import Add from "./Add"
 import Ttgig from "./Ttgig";
 import Giveaway from "./Giveaway";
-import Blog from "./Blog";
+import Policy from "./Policy";
+import Contactus from "./Contactus";
+import Table from "./Table"
 
 
 
@@ -29,6 +31,8 @@ const Appp=()=>{
                     <Route path="/Ttgig" element={<Ttgig></Ttgig>}></Route>
                     <Route path="/giveaway" element={<Giveaway></Giveaway>}></Route>
                     <Route path="/policy" element={<Policy></Policy>}></Route>
+                   <Route path="/contactus" element={<Contactus></Contactus>}></Route>
+                   <Route path="/table" element={<Table></Table>}></Route>
                     
 
                 </Routes>
